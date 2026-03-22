@@ -284,4 +284,21 @@ We focus on how changes in LLP relate to changes in the economy / our variables 
 
 ## Growth of the Banking System
 
-![](figures/total_loans.png)
+![](../figures/total_loans.png)
+
+- Total loans increase steadily over time  
+- Reflects long-term growth in the banking system  
+- Makes level-based comparisons misleading  
+
+---
+
+## Changes in Loan Loss Provisions (ΔLLP)
+
+![](../figures/dllp_ratio.png)
+
+- Focus on quarter-to-quarter changes  
+- Captures adjustment behavior  
+- Removes long-term trend effects  
+
+---
+
