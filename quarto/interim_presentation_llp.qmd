@@ -2,8 +2,6 @@
 title: "Loan Loss Provisions: Anticipatory or Reactionary?"
 subtitle: "A Macro-Information Responsiveness Analysis"
 author: "Luke Roy"
-affiliation: "Data Science Undergraduate Capstone"
-
 
 format:
   revealjs:
@@ -14,6 +12,7 @@ format:
     center: true
 execute:
   echo: false
+  enabled: false
 ---
 
 
@@ -279,4 +278,10 @@ We focus on how changes in LLP relate to changes in the economy / our variables 
 
 ## Loan Loss Provisions Over Time
 
-![](../figures/llp_over_time.png)
+![](figures/llp_over_time.png)
+
+---
+
+## Growth of the Banking System
+
+![](figures/total_loans.png)
