@@ -274,7 +274,7 @@ We focus on how changes in LLP relate to changes in the economy / our variables 
 - We use regression to quantify how LLP and macro signals  
   **move together across time**
 
-
+---
 
 ## Loan Loss Provisions Over Time
 
@@ -326,6 +326,27 @@ We focus on how changes in LLP relate to changes in the economy / our variables 
 
 ---
 
+## What is the Optimism Index?
+
+- Based on surveys of small businesses  
+- Measures expectations about:
+  - Hiring  
+  - Sales  
+  - Economic conditions  
+
+---
+
+
+### Why use it?
+
+- Captures **forward-looking sentiment**  
+- Reflects how firms perceive future risk  
+- Could signal changes **before** they appear in hard data
+
+
+
+---
+
 ## Optimism and LLP: Regression Results
 
 | Metric        | Value |
@@ -337,3 +358,28 @@ We focus on how changes in LLP relate to changes in the economy / our variables 
 - Contemporaneous effect is significant  
 - Other lags show little consistency  
 - No clear timing pattern  
+
+---
+
+## Why Consider a Composite Model?
+
+- The economy is **multi-dimensional**
+- No single indicator captures overall conditions  
+
+---
+
+### In practice:
+
+- Banks observe **many signals at once**
+- Risk is shaped by a combination of factors  
+
+---
+
+### Hypothesis
+
+→ Combining signals may better capture LLP behavior
+
+
+
+
+
