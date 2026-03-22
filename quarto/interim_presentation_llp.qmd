@@ -379,7 +379,65 @@ We focus on how changes in LLP relate to changes in the economy / our variables 
 
 → Combining signals may better capture LLP behavior
 
+---
 
+## Multi-Signal Model: Results
+
+| Metric        | Value |
+|--------------|-------|
+| R²           | 0.210 |
+| Observations | 156   |
+
+---
+
+### Key Findings
+
+- Explanatory power increases substantially  
+- Multiple signals matter simultaneously  
+- No single variable dominates  
+
+---
+
+### Interpretation
+
+→ LLP responds to a **combination of macroeconomic signals**
+
+
+---
+
+## Timing of LLP Response (Lag Structure)
+
+| Variable      | Lag 0 | Lag 1 | Lag 2 | Lag 3 |
+|--------------|-------|-------|-------|-------|
+| Unemployment | +     | -     | —     | -     |
+| Optimism     | -     | —     | -     | —     |
+| Spread       | +     | -     | +     | -     |
+
+---
+
+### Key Takeaways
+
+- Effects are **distributed across multiple quarters**  
+- No single lag consistently dominates  
+- No clear evidence of anticipation  
+- Signs point to a pattern of overcorrection
+
+---
+
+### Ideal behavior:
+
+- Recognize risk **before losses occur**
+- Adjust LLP **in anticipation of downturns**
+
+---
+
+### What we observe:
+
+- LLP responds **during and after changes**
+- Adjustments are **gradual and delayed**
+- Provisioning sometimes trends in the opposite direction of economic signals
+
+---
 
 
 
