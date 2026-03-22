@@ -22,3 +22,6 @@ data/raw/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+# Quarto reveal.js output (CRITICAL)
+quarto/*_files/
