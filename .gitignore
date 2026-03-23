@@ -25,3 +25,43 @@ data/raw/
 
 # Quarto reveal.js output (CRITICAL)
 quarto/*_files/
+
+# ======================
+# Quarto
+# ======================
+.quarto/
+_site/
+*.html
+*_files/
+
+# ======================
+# Jupyter / Quarto execution
+# ======================
+*.ipynb
+*.quarto_ipynb
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ======================
+# Environment
+# ======================
+.env
+.venv
+env/
+venv/
+
+# ======================
+# MacOS
+# ======================
+.DS_Store
+
+# ======================
+# VS Code
+# ======================
+.vscode/
