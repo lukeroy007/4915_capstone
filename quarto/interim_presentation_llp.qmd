@@ -304,7 +304,7 @@ We focus on how changes in LLP relate to changes in the economy / our variables 
 
 ## LLP vs Unemployment (Changes)
 
-![](../figures/llp_vs_unemployment.png)
+![](figures/dllp_ratio.png)
 
 - Relationship is visible, but inconsistent  
 - Periods of alignment and divergence  
