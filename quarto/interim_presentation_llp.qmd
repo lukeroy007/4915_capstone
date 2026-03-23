@@ -439,5 +439,103 @@ We focus on how changes in LLP relate to changes in the economy / our variables 
 
 ---
 
+## Do Our Findings Match Expectations?
+
+---
+
+### Literature
+
+- Provisioning is often **pro-cyclical**
+- Risk is recognized **after conditions deteriorate**
+
+---
+
+### Real-World Behavior
+
+- Losses often appear **during downturns**
+- Banks adjust as conditions become clearer  
+
+---
+
+### My Findings
+
+- LLP responds **contemporaneously and with delay**
+- No consistent anticipatory pattern  
+
+---
+
+### Conclusion
+
+→ Results align with both theory and real-world observations
+
+---
+
+## Can Data Science Improve Risk Recognition?
+
+---
+
+### Current challenges
+
+- Economic signals are **noisy and incomplete**
+- Timing of risk is **difficult to identify**
+- Decisions rely on **multiple interacting factors**
+
+---
+
+## Opportunities
+
+- Combine large, diverse data sources  
+- Extract **forward-looking signals** from sentiment and markets  
+- Improve consistency in risk assessment  
+- Emerging technologies
+
+---
+
+### Key Idea
+
+→ Data science may help shift provisioning from **reactionary → more anticipatory**
+
+---
+
+# Preliminary Conclusion
+
+- LLP does not systematically anticipate economic downturns  
+- Adjustments occur **during and after** macroeconomic changes  
+- Responses are **distributed over time**, not immediate  
+
+---
+
+### Key Takeaway
+
+→ Provisioning behavior is **reactionary and gradual**
+
+---
+
+## Next Steps
+
+---
+
+### Extend the Analysis
+
+- Incorporate additional macroeconomic signals  
+- Explore alternative measures of credit risk  
+
+---
+
+### Improve the Framework
+
+- Test forward-looking variables more directly  
+- Explore different modeling approaches  
+
+---
+
+### Deeper Investigation
+
+- Examine bank-level behavior  
+- Study differences across economic cycles  
+- Conduct **regime-based analysis**:
+  - 1980s recession  
+  - 2008 financial crisis  
+  - COVID-19 shock  
 
 
