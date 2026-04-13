@@ -255,6 +255,8 @@ We use indicators capturing different dimensions of risk:
 - With delay  
 - Or even in advance  
 
+---
+
 → We need a framework to capture **timing**
 
 ---
@@ -308,6 +310,8 @@ We compare LLP today to:
 - **Lead variables**  
   → Does LLP move before changes occur?  
 
+---
+
 → This allows us to test **anticipation vs reaction**
 
 ---
@@ -320,6 +324,8 @@ We estimate relationships of the form:
   - current signals  
   - past signals  
   - future signals  
+
+---
 
 → This captures how LLP evolves **across time**
 
@@ -336,6 +342,8 @@ We are interested in:
 - **Timing of responses**  
 - **Direction of relationships**  
 - **Consistency across variables**  
+
+---
 
 → Do banks recognize risk **early, on time, or late?**
 
@@ -431,6 +439,8 @@ Each coefficient tells us:
 
 ---
 
+## Our Priority
+
 → The priority is **understanding behavior**, not maximizing accuracy
 
 OLS is natural for our goals
@@ -447,6 +457,8 @@ We build our analysis in stages:
 4. Timing structure (lags & leads)  
 5. Combined model  
 6. Regime analysis  
+
+---
 
 → Goal: Understand how LLP responds over time
 
@@ -473,7 +485,7 @@ We build our analysis in stages:
 - Some lagged effects are significant  
 - No consistent timing pattern  
 
-→ LLP does not strongly track unemployment alone
+- LLP does not strongly track unemployment alone
 
 ---
 
@@ -481,9 +493,9 @@ We build our analysis in stages:
 
 - Real economy variables provide **limited explanatory power**  
 
-→ Suggests LLP is not driven by a single signal  
+- Suggests LLP is not driven by a single signal  
 
-→ Need broader, more forward-looking indicators
+- Need broader, more forward-looking indicators
 
 ---
 
@@ -496,6 +508,8 @@ We build our analysis in stages:
 
 - Immediate response is significant  
 - Little persistence across lags  
+
+---
 
 → LLP reacts to financial stress, but weakly
 
@@ -510,6 +524,8 @@ We build our analysis in stages:
 
 - Significant at lag 0 and lag 2  
 - Clearer dynamic pattern  
+
+---
 
 → Financial conditions better explain LLP behavior
 
@@ -526,8 +542,7 @@ We build our analysis in stages:
 
 - Banks observe **many signals simultaneously**  
 - Risk emerges from a combination of factors  
-
-→ A single-variable model may miss important information
+- A single-variable model may miss important information
 
 ---
 
@@ -562,6 +577,8 @@ We build our analysis in stages:
 - Many coefficients insignificant  
 - Mixed signs across time  
 
+---
+
 → Model captures broad information, but lacks clarity
 
 ---
@@ -569,6 +586,7 @@ We build our analysis in stages:
 ## Interpreting the Full Model
 
 - Many variables contain **overlapping information**  
+- Econometric pitfall of multicollinearity
 
 ---
 
@@ -576,8 +594,7 @@ We build our analysis in stages:
 
 - Loss of individual significance  
 - Instability across lags and leads  
-
-→ Signals are **highly correlated**
+- Signals are **highly correlated**
 
 ---
 
@@ -608,7 +625,7 @@ We build our analysis in stages:
   - Financial Conditions (NFCI)  
   - Unemployment  
 
-→ Provides a clearer view of LLP behavior
+- Provides a clearer view of LLP behavior
 
 ---
 
@@ -623,8 +640,7 @@ We build our analysis in stages:
 
 - Strong explanatory power  
 - More stable coefficients  
-
-→ Captures the key drivers of LLP
+- Captures the key drivers of LLP
 
 ---
 
@@ -640,8 +656,7 @@ We build our analysis in stages:
 
 - Crisis periods differ from normal periods  
 - Risk becomes more visible and urgent  
-
-→ LLP behavior may change depending on the environment
+- LLP behavior may change depending on the environment
 
 ---
 
@@ -681,8 +696,7 @@ We split the data into:
 
 - Model fit improves further  
 - Several interaction terms are significant  
-
-→ Evidence of different behavior in crisis periods
+- Evidence of different behavior in crisis periods
 
 ---
 
@@ -693,6 +707,8 @@ We split the data into:
 - Larger coefficient magnitudes  
 - More statistically significant effects  
 - Stronger and more persistent responses  
+
+---
 
 → LLP becomes more reactive under stress
 
@@ -706,13 +722,15 @@ We split the data into:
 - In crisis periods:
   → LLP responds more aggressively  
 
+---
+
 → Banks react more strongly when risk becomes clear
 
 ---
 
 ## Circling back to the Research Question:
 
-- We now understand:
+We now understand:
 
   → What LLP responds to  
   → How responses change across environments  
@@ -730,6 +748,8 @@ Our Core model was built to include:
 - Leads (t+1, t+2) -> 1-2 quarters in advance  
 - Current values (t)  
 - Lags (t−1, t−2, t−3) -> 1-3 quarters of reaction time
+
+---
 
 → Allows us to trace how LLP responds **over time**
 
@@ -788,6 +808,8 @@ Our Core model was built to include:
   - Less consistent adjustment patterns  
   - Insignificant timing effects
 
+---
+
 → Provisioning behavior varies across economic regimes
 
 ---
@@ -818,6 +840,8 @@ Our Core model was built to include:
 
 - Effects are distributed across time in a non-deterministic way  
 
+---
+
 → LLP behaves as a **multi-period adjustment process**
 
 ---
@@ -831,6 +855,8 @@ Our Core model was built to include:
   - Ongoing  
   - Sometimes reversed
   - Not one-time decisions  
+
+---
 
 → Risk recognition evolves as information becomes clearer
 
@@ -860,6 +886,8 @@ Our Core model was built to include:
 - No time-period or variable with two leads of the same sign 
 - No stable pattern across variables  
 
+---
+
 → No strong evidence of systematic anticipation
 
 ---
@@ -885,6 +913,8 @@ Our Core model was built to include:
 
 - Ongoing adjustment to prior shocks  
 - Overlapping timing effects  
+
+---
 
 → Not true forward-looking behavior
 

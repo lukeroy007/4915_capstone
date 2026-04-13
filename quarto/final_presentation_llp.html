@@ -388,6 +388,9 @@ Luke Roy
 </li>
 <li class="fragment">Or even in advance</li>
 </ul>
+</section>
+<section class="slide level2 center">
+
 <p>→ We need a framework to capture <strong>timing</strong></p>
 </section>
 <section id="our-approach" class="slide level2 center">
@@ -413,12 +416,886 @@ Luke Roy
 <h3 id="why">Why?</h3>
 
 <img data-src="figures/total_loans.png" class="r-stretch"><ul>
-<li class="fragment">Removes long-term trends<br>
+<li class="fragment">Removes long-term trends like bank sector growth<br>
 </li>
 <li class="fragment">Makes variables comparable<br>
 </li>
-<li class="fragment">Isolates <strong>adjustment behavior</strong></li>
+<li class="fragment">Isolates <strong>adjustment behavior</strong> in the face of changing conditions</li>
 </ul>
+</section>
+<section id="step-2-introduce-timing" class="slide level2 center">
+<h2>Step 2 — Introduce Timing</h2>
+<p>We compare LLP today to:</p>
+<ul>
+<li class="fragment">Current values of macro variables<br>
+</li>
+<li class="fragment">Past values (<strong>lags</strong>)<br>
+</li>
+<li class="fragment">Future values (<strong>leads</strong>)</li>
+</ul>
+</section>
+<section id="leads-and-lags" class="slide level2 center">
+<h2>Leads and Lags</h2>
+<ul>
+<li class="fragment"><p><strong>Lagged variables</strong><br>
+→ Does LLP respond after changes occur?</p></li>
+<li class="fragment"><p><strong>Contemporaneous variables</strong><br>
+→ Does LLP move at the same time?</p></li>
+<li class="fragment"><p><strong>Lead variables</strong><br>
+→ Does LLP move before changes occur?</p></li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ This allows us to test <strong>anticipation vs reaction</strong></p>
+</section>
+<section id="step-3-regression-framework" class="slide level2 center">
+<h2>Step 3 — Regression Framework</h2>
+<p>We estimate relationships of the form:</p>
+<ul>
+<li class="fragment">Changes in LLP explained by
+<ul>
+<li class="fragment">current signals<br>
+</li>
+<li class="fragment">past signals<br>
+</li>
+<li class="fragment">future signals</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ This captures how LLP evolves <strong>across time</strong></p>
+</section>
+<section id="what-are-we-looking-for" class="slide level2 center">
+<h2>What Are We Looking For?</h2>
+<p>Prediciting LLP is not within the scope of this analysis.</p>
+</section>
+<section class="slide level2 center">
+
+<p>We are interested in:</p>
+<ul>
+<li class="fragment"><strong>Timing of responses</strong><br>
+</li>
+<li class="fragment"><strong>Direction of relationships</strong><br>
+</li>
+<li class="fragment"><strong>Consistency across variables</strong></li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ Do banks recognize risk <strong>early, on time, or late?</strong></p>
+</section>
+<section id="why-this-framework-works" class="slide level2 center">
+<h2>Why This Framework Works</h2>
+<ul>
+<li class="fragment">LLP is a <strong>dynamic adjustment process</strong><br>
+</li>
+<li class="fragment">Economic signals evolve over time</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ This framework allows us to observe:</p>
+<ul>
+<li class="fragment">Information processing<br>
+</li>
+<li class="fragment">Delays in response<br>
+</li>
+<li class="fragment">Evidence of anticipation</li>
+</ul>
+</section>
+<section id="how-regression-works-as-a-tool-for-understanding-timing" class="slide level2 center">
+<h2>How regression works as a tool for understanding timing:</h2>
+<ul>
+<li class="fragment">LLP is not set randomly<br>
+</li>
+<li class="fragment">It responds to information about the economy</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<h3 id="at-each-point-in-time">At each point in time:</h3>
+<ul>
+<li class="fragment">We ask:<br>
+→ When a macro variable changes, how does LLP respond?</li>
+</ul>
+</section>
+<section id="the-regression-quantifies-this-relationship" class="slide level2 center">
+<h2>The regression <strong>quantifies this relationship</strong></h2>
+<p>→ The regression helps us trace:</p>
+<ul>
+<li class="fragment">How information is processed<br>
+</li>
+<li class="fragment">How quickly banks react<br>
+</li>
+<li class="fragment">Whether they anticipate future risk</li>
+</ul>
+</section>
+<section id="interpreting-the-results" class="slide level2 center">
+<h2>Interpreting the Results</h2>
+<p>Each coefficient tells us:</p>
+<ul>
+<li class="fragment"><p><strong>Direction</strong><br>
+→ Does LLP increase or decrease?</p></li>
+<li class="fragment"><p><strong>Timing</strong><br>
+→ Does the response happen before, during, or after?</p></li>
+<li class="fragment"><p><strong>Strength</strong><br>
+→ How large is the response?</p></li>
+</ul>
+</section>
+<section id="model-choice" class="slide level2 center">
+<h2>Model Choice</h2>
+<ul>
+<li class="fragment">OLS provides a <strong>baseline, interpretable framework</strong></li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<ul>
+<li class="fragment"><p>Allows us to isolate:</p>
+<ul>
+<li class="fragment">Timing effects<br>
+</li>
+<li class="fragment">Direction of relationships<br>
+</li>
+<li class="fragment">Consistency across variables</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ More complex models can be explored later<br>
+→ But OLS is ideal for <strong>initial structural understanding</strong></p>
+</section>
+<section id="why-not-more-complex-models" class="slide level2 center">
+<h2>Why Not More Complex Models?</h2>
+<ul>
+<li class="fragment"><p>Advanced models (e.g., machine learning, VARs):</p>
+<ul>
+<li class="fragment">Improve prediction<br>
+</li>
+<li class="fragment">But reduce interpretability</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<h3 id="tradeoff">Tradeoff:</h3>
+<ul>
+<li class="fragment">Complex models → better fit<br>
+</li>
+<li class="fragment">Simple models → clearer insight</li>
+</ul>
+</section>
+<section id="our-priority" class="slide level2 center">
+<h2>Our Priority</h2>
+<p>→ The priority is <strong>understanding behavior</strong>, not maximizing accuracy</p>
+<p>OLS is natural for our goals</p>
+</section>
+<section id="results-overview" class="slide level2 center">
+<h2>Results Overview</h2>
+<p>We build our analysis in stages:</p>
+<ol type="1">
+<li class="fragment">Visual exploration</li>
+<li class="fragment">Single-variable models<br>
+</li>
+<li class="fragment">Financial indicators<br>
+</li>
+<li class="fragment">Timing structure (lags &amp; leads)<br>
+</li>
+<li class="fragment">Combined model<br>
+</li>
+<li class="fragment">Regime analysis</li>
+</ol>
+</section>
+<section class="slide level2 center">
+
+<p>→ Goal: Understand how LLP responds over time</p>
+</section>
+<section id="visual-analysis-llp-and-unemployment" class="slide level2 center">
+<h2>Visual Analysis: LLP and Unemployment</h2>
+
+<img data-src="figures/dllp_vs_dunemp_std.png" class="r-stretch"><ul>
+<li class="fragment">Standardized changes allow direct comparison<br>
+</li>
+<li class="fragment">Some periods show alignment<br>
+</li>
+<li class="fragment">Other periods show divergence<br>
+</li>
+<li class="fragment">Relationship is volatile, but the shape is suggestive of a pattern</li>
+</ul>
+</section>
+<section id="baseline-model-unemployment" class="slide level2 center">
+<h2>Baseline Model: Unemployment</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R²</td>
+<td>~0.05</td>
+</tr>
+<tr class="even">
+<td>Key Result</td>
+<td>Weak relationship</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li class="fragment"><p>Some lagged effects are significant<br>
+</p></li>
+<li class="fragment"><p>No consistent timing pattern</p></li>
+<li class="fragment"><p>LLP does not strongly track unemployment alone</p></li>
+</ul>
+</section>
+<section id="first-insight" class="slide level2 center">
+<h2>First Insight</h2>
+<ul>
+<li class="fragment"><p>Real economy variables provide <strong>limited explanatory power</strong></p></li>
+<li class="fragment"><p>Suggests LLP is not driven by a single signal</p></li>
+<li class="fragment"><p>Need broader, more forward-looking indicators</p></li>
+</ul>
+</section>
+<section id="credit-spread-model" class="slide level2 center">
+<h2>Credit Spread Model</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R²</td>
+<td>~0.04</td>
+</tr>
+<tr class="even">
+<td>Key Result</td>
+<td>Weak but significant contemporaneous effect</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li class="fragment">Immediate response is significant<br>
+</li>
+<li class="fragment">Little persistence across lags</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ LLP reacts to financial stress, but weakly</p>
+</section>
+<section id="financial-conditions-nfci" class="slide level2 center">
+<h2>Financial Conditions (NFCI)</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R²</td>
+<td>~0.23</td>
+</tr>
+<tr class="even">
+<td>Key Result</td>
+<td>Stronger explanatory power</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li class="fragment">Significant at lag 0 and lag 2<br>
+</li>
+<li class="fragment">Clearer dynamic pattern</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ Financial conditions better explain LLP behavior</p>
+</section>
+<section id="combining-signals" class="slide level2 center">
+<h2>Combining Signals</h2>
+<ul>
+<li class="fragment">The economy is <strong>multi-dimensional</strong><br>
+</li>
+<li class="fragment">No single variable captures overall risk</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<h3 id="in-practice">In practice:</h3>
+<ul>
+<li class="fragment">Banks observe <strong>many signals simultaneously</strong><br>
+</li>
+<li class="fragment">Risk emerges from a combination of factors<br>
+</li>
+<li class="fragment">A single-variable model may miss important information</li>
+</ul>
+</section>
+<section id="combined-model" class="slide level2 center">
+<h2>Combined Model</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R²</td>
+<td>~0.45</td>
+</tr>
+<tr class="even">
+<td>Observations</td>
+<td>154</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2 center">
+
+<ul>
+<li class="fragment">Substantial increase in explanatory power<br>
+</li>
+<li class="fragment">Multiple variables contribute simultaneously</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ LLP responds to a <strong>combination of macro signals</strong></p>
+</section>
+<section id="full-model-all-variables" class="slide level2 center">
+<h2>Full Model (All Variables)</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R²</td>
+<td>~0.59</td>
+</tr>
+<tr class="even">
+<td>Variables</td>
+<td>30+</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2 center">
+
+<ul>
+<li class="fragment">Highest explanatory power observed<br>
+</li>
+<li class="fragment">Many coefficients insignificant<br>
+</li>
+<li class="fragment">Mixed signs across time</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ Model captures broad information, but lacks clarity</p>
+</section>
+<section id="interpreting-the-full-model" class="slide level2 center">
+<h2>Interpreting the Full Model</h2>
+<ul>
+<li class="fragment">Many variables contain <strong>overlapping information</strong><br>
+</li>
+<li class="fragment">Econometric pitfall of multicollinearity</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<h3 id="evidence">Evidence:</h3>
+<ul>
+<li class="fragment">Loss of individual significance<br>
+</li>
+<li class="fragment">Instability across lags and leads<br>
+</li>
+<li class="fragment">Signals are <strong>highly correlated</strong></li>
+</ul>
+</section>
+<section id="key-insight" class="slide level2 center">
+<h2>Key Insight:</h2>
+<ul>
+<li class="fragment">LLP is influenced by a <strong>complex web of signals</strong></li>
+<li class="fragment">No single variable dominates, multivariate analysis outperforms univariate</li>
+</ul>
+</section>
+<section id="what-mattered-most" class="slide level2 center">
+<h2>What Mattered Most</h2>
+<ul>
+<li class="fragment">Financial conditions (NFCI) remain important<br>
+</li>
+<li class="fragment">Unemployment still contributes</li>
+<li class="fragment">Other variables add noise when combined</li>
+</ul>
+</section>
+<section id="refocusing-the-model" class="slide level2 center">
+<h2>Refocusing the Model</h2>
+<ul>
+<li class="fragment">The full model includes many overlapping signals</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<h3 id="to-improve-clarity">To improve clarity:</h3>
+<ul>
+<li class="fragment"><p>We focus on the strongest variables:</p>
+<ul>
+<li class="fragment">Financial Conditions (NFCI)<br>
+</li>
+<li class="fragment">Unemployment</li>
+</ul></li>
+<li class="fragment"><p>Provides a clearer view of LLP behavior</p></li>
+</ul>
+</section>
+<section id="core-model-nfci-unemployment" class="slide level2 center">
+<h2>Core Model (NFCI + Unemployment)</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R²</td>
+<td>~0.45</td>
+</tr>
+<tr class="even">
+<td>Observations</td>
+<td>~150</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2 center">
+
+<ul>
+<li class="fragment">Strong explanatory power<br>
+</li>
+<li class="fragment">More stable coefficients<br>
+</li>
+<li class="fragment">Captures the key drivers of LLP</li>
+</ul>
+</section>
+<section id="one-last-adjustment" class="slide level2 center">
+<h2>One Last Adjustment:</h2>
+</section>
+<section id="why-consider-regimes" class="slide level2 center">
+<h2>Why Consider Regimes?</h2>
+<ul>
+<li class="fragment">Economic conditions are not constant over time</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<h3 id="in-particular">In particular:</h3>
+<ul>
+<li class="fragment">Crisis periods differ from normal periods<br>
+</li>
+<li class="fragment">Risk becomes more visible and urgent<br>
+</li>
+<li class="fragment">LLP behavior may change depending on the environment</li>
+</ul>
+</section>
+<section id="defining-regimes" class="slide level2 center">
+<h2>Defining Regimes</h2>
+<p>We split the data into:</p>
+<ul>
+<li class="fragment"><strong>Normal periods</strong><br>
+</li>
+<li class="fragment"><strong>Crisis periods</strong> (e.g., 2008, COVID)</li>
+</ul>
+<p>→ Allows us to test whether behavior changes under stress</p>
+</section>
+<section id="regime-analysis-method" class="slide level2 center">
+<h2>Regime Analysis Method</h2>
+<ul>
+<li class="fragment">Extend the core model (NFCI + Unemployment)</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<h3 id="add-interaction-terms">Add interaction terms:</h3>
+<ul>
+<li class="fragment">Variable × Crisis indicator</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ Measures how responses differ during crisis periods</p>
+</section>
+<section id="regime-model-results" class="slide level2 center">
+<h2>Regime Model Results</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>R²</td>
+<td>~0.55</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li class="fragment">Model fit improves further<br>
+</li>
+<li class="fragment">Several interaction terms are significant<br>
+</li>
+<li class="fragment">Evidence of different behavior in crisis periods</li>
+</ul>
+</section>
+<section id="crisis-vs-normal-behavior" class="slide level2 center">
+<h2>Crisis vs Normal Behavior</h2>
+<h3 id="during-crisis-periods">During crisis periods:</h3>
+<ul>
+<li class="fragment">Larger coefficient magnitudes<br>
+</li>
+<li class="fragment">More statistically significant effects<br>
+</li>
+<li class="fragment">Stronger and more persistent responses</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ LLP becomes more reactive under stress</p>
+</section>
+<section id="key-interpretation" class="slide level2 center">
+<h2>Key Interpretation</h2>
+<ul>
+<li class="fragment"><p>In normal times: → LLP adjusts gradually</p></li>
+<li class="fragment"><p>In crisis periods: → LLP responds more aggressively</p></li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ Banks react more strongly when risk becomes clear</p>
+</section>
+<section id="circling-back-to-the-research-question" class="slide level2 center">
+<h2>Circling back to the Research Question:</h2>
+<p>We now understand:</p>
+<p>→ What LLP responds to<br>
+→ How responses change across environments</p>
+</section>
+<section id="how-did-llp-respond-over-time" class="slide level2 center">
+<h2>How did LLP respond over time?</h2>
+</section>
+<section id="timing-framework" class="slide level2 center">
+<h2>Timing Framework</h2>
+<p>Our Core model was built to include:</p>
+<ul>
+<li class="fragment">Leads (t+1, t+2) -&gt; 1-2 quarters in advance<br>
+</li>
+<li class="fragment">Current values (t)<br>
+</li>
+<li class="fragment">Lags (t−1, t−2, t−3) -&gt; 1-3 quarters of reaction time</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ Allows us to trace how LLP responds <strong>over time</strong></p>
+</section>
+<section id="master-table-of-results" class="slide level2 center">
+<h2>Master Table of Results:</h2>
+</section>
+<section id="timing-results-normal-vs-crisis" class="slide level2 center">
+<h2>Timing Results (Normal vs Crisis)</h2>
+</section>
+<section class="slide level2 center">
+
+<h3 id="financial-conditions-nfci-1">Financial Conditions (NFCI)</h3>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Period</th>
+<th>Lead 2</th>
+<th>Lead 1</th>
+<th>Lag 0</th>
+<th>Lag 1</th>
+<th>Lag 2</th>
+<th>Lag 3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Normal</td>
+<td>+</td>
+<td>*</td>
+<td>+</td>
+<td>*</td>
+<td>*</td>
+<td>*</td>
+</tr>
+<tr class="even">
+<td>Crisis Effect</td>
+<td>(−)</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li class="fragment">= significant positive<br>
+− = significant negative<br>
+( ) = marginal significance (p &lt; 0.10)<br>
+</li>
+<li class="fragment">= not significant</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<h3 id="unemployment">Unemployment</h3>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Period</th>
+<th>Lead 2</th>
+<th>Lead 1</th>
+<th>Lag 0</th>
+<th>Lag 1</th>
+<th>Lag 2</th>
+<th>Lag 3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Normal</td>
+<td>*</td>
+<td>+</td>
+<td>+</td>
+<td>*</td>
+<td>*</td>
+<td>(−)</td>
+</tr>
+<tr class="even">
+<td>Crisis Effect</td>
+<td>−</td>
+<td>*</td>
+<td>+</td>
+<td>−</td>
+<td>*</td>
+<td>+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li class="fragment">= significant positive<br>
+− = significant negative<br>
+( ) = marginal significance (p &lt; 0.10)<br>
+</li>
+<li class="fragment">= not significant</li>
+</ul>
+</section>
+<section id="important-takeaways" class="slide level2 center">
+<h2>3 Important Takeaways:</h2>
+<ul>
+<li class="fragment">Co-movement during crisis</li>
+<li class="fragment">Diffuse reactions to economic shock</li>
+<li class="fragment">Weak evidience of anticipation</li>
+</ul>
+</section>
+<section id="behavior-across-economic-conditions" class="slide level2 center">
+<h2>Behavior Across Economic Conditions</h2>
+<ul>
+<li class="fragment"><p>LLP more closely tracks macro conditions during crises</p></li>
+<li class="fragment"><p>In stable periods:</p>
+<ul>
+<li class="fragment">We observe weaker relationships<br>
+</li>
+<li class="fragment">Less consistent adjustment patterns<br>
+</li>
+<li class="fragment">Insignificant timing effects</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ Provisioning behavior varies across economic regimes</p>
+</section>
+<section id="visual-evidence" class="slide level2 center">
+<h2>Visual Evidence</h2>
+
+<img data-src="figures/llp_vs_unemployment.png" class="r-stretch"><ul>
+<li class="fragment">Strong co-movement during crises (e.g., 2008)<br>
+</li>
+<li class="fragment">Contrary motion during stable periods<br>
+</li>
+<li class="fragment">Our lag/lead significance pattern is a reflection of this changing relationship</li>
+</ul>
+</section>
+<section id="explanation" class="slide level2 center">
+<h2>Explanation:</h2>
+<ul>
+<li class="fragment">When risk is low, macro signals are less relevant to provisioning decisions</li>
+<li class="fragment">During times of stability, banks may focus on other factors (e.g., competition, profitability, business metrics)</li>
+<li class="fragment">Fear of being left behind - When the competition is not provisioning, it increases the opportunity cost of playing safe, even if risk is increasing in the background</li>
+</ul>
+</section>
+<section id="diffuse-adjustment-during-crises" class="slide level2 center">
+<h2>Diffuse Adjustment During Crises</h2>
+<ul>
+<li class="fragment"><p>Economic shocks trigger immediate LLP responses</p></li>
+<li class="fragment"><p>Adjustments continue over multiple quarters</p></li>
+<li class="fragment"><p>Effects are distributed across time in a non-deterministic way</p></li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ LLP behaves as a <strong>multi-period adjustment process</strong></p>
+</section>
+<section id="interpretation" class="slide level2 center">
+<h2>Interpretation</h2>
+<ul>
+<li class="fragment"><p>Banks <strong>respond</strong> to worsening conditions once they are forced to</p></li>
+<li class="fragment"><p>Adjustments are:</p>
+<ul>
+<li class="fragment">Gradual<br>
+</li>
+<li class="fragment">Ongoing<br>
+</li>
+<li class="fragment">Sometimes reversed</li>
+<li class="fragment">Not one-time decisions</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ Risk recognition evolves as information becomes clearer</p>
+</section>
+<section id="explanation-1" class="slide level2 center">
+<h2>Explanation:</h2>
+<ul>
+<li class="fragment">When risk becomes visible, banks adjust quickly to mitigate losses</li>
+<li class="fragment">However, the adjustment process is not perfect or deterministic</li>
+<li class="fragment">As conditions evolve, banks may need to adjust further, or even reverse course if conditions improve</li>
+</ul>
+</section>
+<section id="weak-evidence-of-anticipation" class="slide level2 center">
+<h2>Weak Evidence of Anticipation</h2>
+</section>
+<section id="evidence-on-anticipation" class="slide level2 center">
+<h2>Evidence on Anticipation</h2>
+<ul>
+<li class="fragment">Some lead terms are statistically significant</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<h3 id="however">However:</h3>
+<ul>
+<li class="fragment">No time-period or variable with two significant leads</li>
+<li class="fragment">No time-period or variable with two leads of the same sign</li>
+<li class="fragment">No stable pattern across variables</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ No strong evidence of systematic anticipation</p>
+</section>
+<section id="explanation-2" class="slide level2 center">
+<h2>Explanation:</h2>
+<ul>
+<li class="fragment">To make the claim that banks anticipate risk, we would need consistent evidence of significant lead effects across multiple variables and time periods</li>
+<li class="fragment">The lack of significant leads, and the incosistent pattern of signs, suggests that banks do not systematically adjust LLP in anticipation of future economic changes</li>
+</ul>
+</section>
+<section id="interpreting-lead-effects" class="slide level2 center">
+<h2>Interpreting Lead Effects</h2>
+<ul>
+<li class="fragment"><p>Macroeconomic conditions are persistent</p></li>
+<li class="fragment"><p>LLP responds over multiple quarters</p></li>
+</ul>
+</section>
+<section id="my-theory" class="slide level2 center">
+<h2>My Theory</h2>
+<p>→ Lead significance may reflect:</p>
+<ul>
+<li class="fragment">Ongoing adjustment to prior shocks<br>
+</li>
+<li class="fragment">Overlapping timing effects</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ Not true forward-looking behavior</p>
+</section>
+<section id="final-interpretation" class="slide level2 center">
+<h2>Final Interpretation</h2>
+<ul>
+<li class="fragment"><p>LLP <strong>responds</strong> to worsening macroeconomic conditions, especially when crisis is unambiguous and risk is visible</p></li>
+<li class="fragment"><p>Adjustments are:</p>
+<ul>
+<li class="fragment">Immediate<br>
+</li>
+<li class="fragment">Gradual<br>
+</li>
+<li class="fragment">Distributed over time</li>
+</ul></li>
+<li class="fragment"><p>Responses strengthen during shocks</p></li>
+<li class="fragment"><p>Little evidence of systematic anticipation</p></li>
+</ul>
+</section>
+<section id="answer-to-research-question" class="slide level2 center">
+<h2>Answer to Research Question</h2>
+<p>Do banks anticipate macroeconomic risk?</p>
+<ul>
+<li class="fragment"><p>Limited evidence of anticipation</p></li>
+<li class="fragment"><p>Provisioning responds:</p>
+<ul>
+<li class="fragment">Contemporaneously<br>
+</li>
+<li class="fragment">With lagged adjustments</li>
+</ul></li>
+</ul>
+</section>
+<section id="in-conclusion" class="slide level2 center">
+<h2>In conclusion:</h2>
+<p>Provisioning behavior is <strong>reactionary and state-dependent</strong></p>
+</section>
+<section id="role-of-data-science" class="slide level2 center">
+<h2>Role of Data Science</h2>
+<ul>
+<li class="fragment">Current behavior is largely reactionary</li>
+</ul>
+</section>
+<section class="slide level2 center">
+
+<p>→ Opportunity to:</p>
+<ul>
+<li class="fragment">Improve early risk detection<br>
+</li>
+<li class="fragment">Incorporate forward-looking signals<br>
+</li>
+<li class="fragment">Enhance consistency in provisioning decisions</li>
+</ul>
+</section>
+<section id="key-takeaway" class="slide level2 center">
+<h2>Key Takeaway</h2>
+<p>→ Loan loss provisioning is <strong>not anticipatory</strong></p>
+<p>→ It is a <strong>gradual, reactionary process</strong></p>
+<p>→ Stronger during periods of economic stress</p>
 </section>
 <section class="slide level2 center">
 
