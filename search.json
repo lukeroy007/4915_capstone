@@ -1,0 +1,569 @@
+[
+  {
+    "objectID": "index.html#whats-a-bank",
+    "href": "index.html#whats-a-bank",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "What’s a Bank?",
+    "text": "What’s a Bank?"
+  },
+  {
+    "objectID": "index.html#a-bank-to-us-is",
+    "href": "index.html#a-bank-to-us-is",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "A Bank to us is:",
+    "text": "A Bank to us is:\n\nA place to store money securely\nA place to borrow money for big purchases\nA place to invest money for growth"
+  },
+  {
+    "objectID": "index.html#a-bank-is-a-business",
+    "href": "index.html#a-bank-is-a-business",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "A Bank is a Business:",
+    "text": "A Bank is a Business:\n\nThe loans you take out are their products\nBanks make money by lending money, and charging for this service in the form of interest\nThis type of product is risky however, sometimes people don’t pay back their loans"
+  },
+  {
+    "objectID": "index.html#imagine-this-scenario",
+    "href": "index.html#imagine-this-scenario",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Imagine this Scenario:",
+    "text": "Imagine this Scenario:\n\nA bank loans out 1 million dollars to 100 customers\nEach customer is expected to pay back $10,000 with interest\nBecause loans are risky, it’s an overestimation to say that all 100 customers will pay back their loans"
+  },
+  {
+    "objectID": "index.html#loan-loss-provisions-llp",
+    "href": "index.html#loan-loss-provisions-llp",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Loan Loss Provisions (LLP)",
+    "text": "Loan Loss Provisions (LLP)\n\nTo prepare for potential losses, banks set aside a portion of their profits as an “Allowance for Loan Losses” (ALL)\nLoan loss provisioning is the process of estimating, adjusting and recording this allowance\nIt acts as a financial buffer to absorb potential losses from defaulted loans"
+  },
+  {
+    "objectID": "index.html#simple-idea",
+    "href": "index.html#simple-idea",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Simple Idea:",
+    "text": "Simple Idea:\n\nIf banks expect more losses in the future -&gt; they will increase their LLP\nIf risk looks low -&gt; they will decrease their LLP"
+  },
+  {
+    "objectID": "index.html#loan-losses-are-time-sensitive",
+    "href": "index.html#loan-losses-are-time-sensitive",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Loan Losses are Time Sensitive:",
+    "text": "Loan Losses are Time Sensitive:\n\nWhen faced with increasing risk, banks must adjust their LLP to mitigate potential losses\nBanks can try to anticipate future losses\nOr they can react to losses once they are visible"
+  },
+  {
+    "objectID": "index.html#the-tradeoff",
+    "href": "index.html#the-tradeoff",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "The Tradeoff:",
+    "text": "The Tradeoff:"
+  },
+  {
+    "objectID": "index.html#if-banks-adjust-too-early",
+    "href": "index.html#if-banks-adjust-too-early",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "If Banks Adjust too Early:",
+    "text": "If Banks Adjust too Early:\n\nThey might over-provision, which can reduce profitability and competitiveness\nRisk may be overestimated, leading to inefficient capital allocation\nIt can signal to the market that the bank is in trouble, even if it isn’t\nFear of missing out / being left behind"
+  },
+  {
+    "objectID": "index.html#if-banks-adjust-too-late",
+    "href": "index.html#if-banks-adjust-too-late",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "If Banks Adjust too Late:",
+    "text": "If Banks Adjust too Late:\n\nLosses appear suddenly, causing financial instability\nProfits drop sharply, compromising investor confidence\nExposure to risk increases, potentially threatening the bank’s long-term viability\nFear of not getting out"
+  },
+  {
+    "objectID": "index.html#if-banks-had-perfect-foresight",
+    "href": "index.html#if-banks-had-perfect-foresight",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "If Banks had Perfect Foresight:",
+    "text": "If Banks had Perfect Foresight:\n\nThey would adjust their LLP perfectly in line with future losses\nThey would recognize risk and adjust before these losses occur\nThey would anticipate signals ahead of their competition, freeing up captial during good times, and building up buffers during bad times"
+  },
+  {
+    "objectID": "index.html#the-reality",
+    "href": "index.html#the-reality",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "The Reality:",
+    "text": "The Reality:\n\nBanks have imperfect information about the future, and must rely on noisy/uncertain signals to guide their decisions\nActing too early isn’t always a safe bet, it has costs\nLLP only adjusts quarterly, meaning a natural delay and potential to miss signals"
+  },
+  {
+    "objectID": "index.html#research-question",
+    "href": "index.html#research-question",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Research Question",
+    "text": "Research Question\nHow do banks adjust loan loss provisions over time?\n\nDo banks anticipate economic downturns?\nDo they react after conditions worsen?\nOr do they adjust at the same time as the economy changes?"
+  },
+  {
+    "objectID": "index.html#secondary-question",
+    "href": "index.html#secondary-question",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Secondary Question",
+    "text": "Secondary Question\n\nWhat role can data science play in improving how banks recognize risk and set provisions?"
+  },
+  {
+    "objectID": "index.html#how-do-we-study-this",
+    "href": "index.html#how-do-we-study-this",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "How Do We Study This?",
+    "text": "How Do We Study This?\n\nWe want to understand when LLP responds to economic changes via a multi-signal, time-series analysis\n\n\nNot just whether economic changes variables are related to LLP\nBut how that relationship unfolds over time"
+  },
+  {
+    "objectID": "index.html#what-do-we-mean-by-economic-changes",
+    "href": "index.html#what-do-we-mean-by-economic-changes",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "What Do We Mean by Economic Changes?",
+    "text": "What Do We Mean by Economic Changes?\nLoan repayment is a conflux of economic factors…\nWe use a small set of indicators to capture different limitations on borrowers’ ability to repay, and include metrics that signal credit risk/financial stress"
+  },
+  {
+    "objectID": "index.html#what-signals-do-we-use",
+    "href": "index.html#what-signals-do-we-use",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "What Signals Do We Use?",
+    "text": "What Signals Do We Use?\nWe use indicators capturing different dimensions of risk:"
+  },
+  {
+    "objectID": "index.html#unemployment-rate",
+    "href": "index.html#unemployment-rate",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Unemployment Rate",
+    "text": "Unemployment Rate\n\nMeasures the share of the labor force without a job"
+  },
+  {
+    "objectID": "index.html#industrial-production",
+    "href": "index.html#industrial-production",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Industrial Production",
+    "text": "Industrial Production\n\nMeasures output in manufacturing, mining, and utilities"
+  },
+  {
+    "objectID": "index.html#term-spread",
+    "href": "index.html#term-spread",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Term Spread",
+    "text": "Term Spread\n\nDifference between long-term and short-term interest rates for U.S. Treasury bonds"
+  },
+  {
+    "objectID": "index.html#credit-spread",
+    "href": "index.html#credit-spread",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Credit Spread",
+    "text": "Credit Spread\n\nDifference between corporate bond yields and safe government yields"
+  },
+  {
+    "objectID": "index.html#national-financial-conditions-index-nfci",
+    "href": "index.html#national-financial-conditions-index-nfci",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "National Financial Conditions Index (NFCI)",
+    "text": "National Financial Conditions Index (NFCI)\n\nComposite index of financial market stress"
+  },
+  {
+    "objectID": "index.html#small-business-optimism-index",
+    "href": "index.html#small-business-optimism-index",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Small Business Optimism Index",
+    "text": "Small Business Optimism Index\n\nSurvey-based measure of business expectations"
+  },
+  {
+    "objectID": "index.html#from-economic-signals-to-analysis",
+    "href": "index.html#from-economic-signals-to-analysis",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "From Economic Signals to Analysis",
+    "text": "From Economic Signals to Analysis\n\nWe now have a set of indicators capturing different types of risk"
+  },
+  {
+    "objectID": "index.html#the-core-challenge",
+    "href": "index.html#the-core-challenge",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "The Core Challenge",
+    "text": "The Core Challenge\n\nEconomic variables and LLP are both time series\n\nRelationships are not instantaneous"
+  },
+  {
+    "objectID": "index.html#our-approach",
+    "href": "index.html#our-approach",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Our Approach",
+    "text": "Our Approach\nWe use a simple - 3 step - time-series framework to study:\n\nWhen LLP responds\n\nHow strongly it responds\n\nHow long responses persist\n\n→ Focus is on dynamic relationships, not prediction"
+  },
+  {
+    "objectID": "index.html#step-1-focus-on-changes",
+    "href": "index.html#step-1-focus-on-changes",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Step 1 — Focus on Changes",
+    "text": "Step 1 — Focus on Changes\n\nWe convert all variables into quarterly changes"
+  },
+  {
+    "objectID": "index.html#step-2-introduce-timing",
+    "href": "index.html#step-2-introduce-timing",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Step 2 — Introduce Timing",
+    "text": "Step 2 — Introduce Timing\nWe compare LLP today to:\n\nCurrent values of macro variables\n\nPast values (lags)\n\nFuture values (leads)"
+  },
+  {
+    "objectID": "index.html#leads-and-lags",
+    "href": "index.html#leads-and-lags",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Leads and Lags",
+    "text": "Leads and Lags\n\nLagged variables\n→ Does LLP respond after changes occur?\nContemporaneous variables\n→ Does LLP move at the same time?\nLead variables\n→ Does LLP move before changes occur?"
+  },
+  {
+    "objectID": "index.html#step-3-regression-framework",
+    "href": "index.html#step-3-regression-framework",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Step 3 — Regression Framework",
+    "text": "Step 3 — Regression Framework\nWe estimate relationships of the form:\n\nChanges in LLP explained by\n\ncurrent signals\n\npast signals\n\nfuture signals"
+  },
+  {
+    "objectID": "index.html#what-are-we-looking-for",
+    "href": "index.html#what-are-we-looking-for",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "What Are We Looking For?",
+    "text": "What Are We Looking For?\nPrediciting LLP is not within the scope of this analysis."
+  },
+  {
+    "objectID": "index.html#why-this-framework-works",
+    "href": "index.html#why-this-framework-works",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Why This Framework Works",
+    "text": "Why This Framework Works\n\nLLP is a dynamic adjustment process\n\nEconomic signals evolve over time"
+  },
+  {
+    "objectID": "index.html#how-regression-works-as-a-tool-for-understanding-timing",
+    "href": "index.html#how-regression-works-as-a-tool-for-understanding-timing",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "How regression works as a tool for understanding timing:",
+    "text": "How regression works as a tool for understanding timing:\n\nLLP is not set randomly\n\nIt responds to information about the economy"
+  },
+  {
+    "objectID": "index.html#the-regression-quantifies-this-relationship",
+    "href": "index.html#the-regression-quantifies-this-relationship",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "The regression quantifies this relationship",
+    "text": "The regression quantifies this relationship\n→ The regression helps us trace:\n\nHow information is processed\n\nHow quickly banks react\n\nWhether they anticipate future risk"
+  },
+  {
+    "objectID": "index.html#interpreting-the-results",
+    "href": "index.html#interpreting-the-results",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Interpreting the Results",
+    "text": "Interpreting the Results\nEach coefficient tells us:\n\nDirection\n→ Does LLP increase or decrease?\nTiming\n→ Does the response happen before, during, or after?\nStrength\n→ How large is the response?"
+  },
+  {
+    "objectID": "index.html#model-choice",
+    "href": "index.html#model-choice",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Model Choice",
+    "text": "Model Choice\n\nOLS provides a baseline, interpretable framework"
+  },
+  {
+    "objectID": "index.html#why-not-more-complex-models",
+    "href": "index.html#why-not-more-complex-models",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Why Not More Complex Models?",
+    "text": "Why Not More Complex Models?\n\nAdvanced models (e.g., machine learning, VARs):\n\nImprove prediction\n\nBut reduce interpretability"
+  },
+  {
+    "objectID": "index.html#our-priority",
+    "href": "index.html#our-priority",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Our Priority",
+    "text": "Our Priority\n→ The priority is understanding behavior, not maximizing accuracy\nOLS is natural for our goals"
+  },
+  {
+    "objectID": "index.html#results-overview",
+    "href": "index.html#results-overview",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Results Overview",
+    "text": "Results Overview\nWe build our analysis in stages:\n\nVisual exploration\nSingle-variable models\n\nFinancial indicators\n\nTiming structure (lags & leads)\n\nCombined model\n\nRegime analysis"
+  },
+  {
+    "objectID": "index.html#visual-analysis-llp-and-unemployment",
+    "href": "index.html#visual-analysis-llp-and-unemployment",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Visual Analysis: LLP and Unemployment",
+    "text": "Visual Analysis: LLP and Unemployment\n\n\nStandardized changes allow direct comparison\n\nSome periods show alignment\n\nOther periods show divergence\n\nRelationship is volatile, but the shape is suggestive of a pattern"
+  },
+  {
+    "objectID": "index.html#baseline-model-unemployment",
+    "href": "index.html#baseline-model-unemployment",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Baseline Model: Unemployment",
+    "text": "Baseline Model: Unemployment\n\n\n\nMetric\nValue\n\n\n\n\nR²\n~0.05\n\n\nKey Result\nWeak relationship\n\n\n\n\nSome lagged effects are significant\n\nNo consistent timing pattern\nLLP does not strongly track unemployment alone"
+  },
+  {
+    "objectID": "index.html#first-insight",
+    "href": "index.html#first-insight",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "First Insight",
+    "text": "First Insight\n\nReal economy variables provide limited explanatory power\nSuggests LLP is not driven by a single signal\nNeed broader, more forward-looking indicators"
+  },
+  {
+    "objectID": "index.html#credit-spread-model",
+    "href": "index.html#credit-spread-model",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Credit Spread Model",
+    "text": "Credit Spread Model\n\n\n\nMetric\nValue\n\n\n\n\nR²\n~0.04\n\n\nKey Result\nWeak but significant contemporaneous effect\n\n\n\n\nImmediate response is significant\n\nLittle persistence across lags"
+  },
+  {
+    "objectID": "index.html#financial-conditions-nfci",
+    "href": "index.html#financial-conditions-nfci",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Financial Conditions (NFCI)",
+    "text": "Financial Conditions (NFCI)\n\n\n\nMetric\nValue\n\n\n\n\nR²\n~0.23\n\n\nKey Result\nStronger explanatory power\n\n\n\n\nSignificant at lag 0 and lag 2\n\nClearer dynamic pattern"
+  },
+  {
+    "objectID": "index.html#combining-signals",
+    "href": "index.html#combining-signals",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Combining Signals",
+    "text": "Combining Signals\n\nThe economy is multi-dimensional\n\nNo single variable captures overall risk"
+  },
+  {
+    "objectID": "index.html#combined-model",
+    "href": "index.html#combined-model",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Combined Model",
+    "text": "Combined Model\n\n\n\nMetric\nValue\n\n\n\n\nR²\n~0.45\n\n\nObservations\n154"
+  },
+  {
+    "objectID": "index.html#full-model-all-variables",
+    "href": "index.html#full-model-all-variables",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Full Model (All Variables)",
+    "text": "Full Model (All Variables)\n\n\n\nMetric\nValue\n\n\n\n\nR²\n~0.59\n\n\nVariables\n30+"
+  },
+  {
+    "objectID": "index.html#interpreting-the-full-model",
+    "href": "index.html#interpreting-the-full-model",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Interpreting the Full Model",
+    "text": "Interpreting the Full Model\n\nMany variables contain overlapping information\n\nEconometric pitfall of multicollinearity"
+  },
+  {
+    "objectID": "index.html#key-insight",
+    "href": "index.html#key-insight",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Key Insight:",
+    "text": "Key Insight:\n\nLLP is influenced by a complex web of signals\nNo single variable dominates, multivariate analysis outperforms univariate"
+  },
+  {
+    "objectID": "index.html#what-mattered-most",
+    "href": "index.html#what-mattered-most",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "What Mattered Most",
+    "text": "What Mattered Most\n\nFinancial conditions (NFCI) remain important\n\nUnemployment still contributes\nOther variables add noise when combined"
+  },
+  {
+    "objectID": "index.html#refocusing-the-model",
+    "href": "index.html#refocusing-the-model",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Refocusing the Model",
+    "text": "Refocusing the Model\n\nThe full model includes many overlapping signals"
+  },
+  {
+    "objectID": "index.html#core-model-nfci-unemployment",
+    "href": "index.html#core-model-nfci-unemployment",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Core Model (NFCI + Unemployment)",
+    "text": "Core Model (NFCI + Unemployment)\n\n\n\nMetric\nValue\n\n\n\n\nR²\n~0.45\n\n\nObservations\n~150"
+  },
+  {
+    "objectID": "index.html#one-last-adjustment",
+    "href": "index.html#one-last-adjustment",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "One Last Adjustment:",
+    "text": "One Last Adjustment:"
+  },
+  {
+    "objectID": "index.html#why-consider-regimes",
+    "href": "index.html#why-consider-regimes",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Why Consider Regimes?",
+    "text": "Why Consider Regimes?\n\nEconomic conditions are not constant over time"
+  },
+  {
+    "objectID": "index.html#defining-regimes",
+    "href": "index.html#defining-regimes",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Defining Regimes",
+    "text": "Defining Regimes\nWe split the data into:\n\nNormal periods\n\nCrisis periods (e.g., 2008, COVID)\n\n→ Allows us to test whether behavior changes under stress"
+  },
+  {
+    "objectID": "index.html#regime-analysis-method",
+    "href": "index.html#regime-analysis-method",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Regime Analysis Method",
+    "text": "Regime Analysis Method\n\nExtend the core model (NFCI + Unemployment)"
+  },
+  {
+    "objectID": "index.html#regime-model-results",
+    "href": "index.html#regime-model-results",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Regime Model Results",
+    "text": "Regime Model Results\n\n\n\nMetric\nValue\n\n\n\n\nR²\n~0.55\n\n\n\n\nModel fit improves further\n\nSeveral interaction terms are significant\n\nEvidence of different behavior in crisis periods"
+  },
+  {
+    "objectID": "index.html#crisis-vs-normal-behavior",
+    "href": "index.html#crisis-vs-normal-behavior",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Crisis vs Normal Behavior",
+    "text": "Crisis vs Normal Behavior\nDuring crisis periods:\n\nLarger coefficient magnitudes\n\nMore statistically significant effects\n\nStronger and more persistent responses"
+  },
+  {
+    "objectID": "index.html#key-interpretation",
+    "href": "index.html#key-interpretation",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Key Interpretation",
+    "text": "Key Interpretation\n\nIn normal times: → LLP adjusts gradually\nIn crisis periods: → LLP responds more aggressively"
+  },
+  {
+    "objectID": "index.html#circling-back-to-the-research-question",
+    "href": "index.html#circling-back-to-the-research-question",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Circling back to the Research Question:",
+    "text": "Circling back to the Research Question:\nWe now understand:\n→ What LLP responds to\n→ How responses change across environments"
+  },
+  {
+    "objectID": "index.html#how-did-llp-respond-over-time",
+    "href": "index.html#how-did-llp-respond-over-time",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "How did LLP respond over time?",
+    "text": "How did LLP respond over time?"
+  },
+  {
+    "objectID": "index.html#timing-framework",
+    "href": "index.html#timing-framework",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Timing Framework",
+    "text": "Timing Framework\nOur Core model was built to include:\n\nLeads (t+1, t+2) -&gt; 1-2 quarters in advance\n\nCurrent values (t)\n\nLags (t−1, t−2, t−3) -&gt; 1-3 quarters of reaction time"
+  },
+  {
+    "objectID": "index.html#master-table-of-results",
+    "href": "index.html#master-table-of-results",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Master Table of Results:",
+    "text": "Master Table of Results:"
+  },
+  {
+    "objectID": "index.html#timing-results-normal-vs-crisis",
+    "href": "index.html#timing-results-normal-vs-crisis",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Timing Results (Normal vs Crisis)",
+    "text": "Timing Results (Normal vs Crisis)"
+  },
+  {
+    "objectID": "index.html#important-takeaways",
+    "href": "index.html#important-takeaways",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "3 Important Takeaways:",
+    "text": "3 Important Takeaways:\n\nCo-movement during crisis\nDiffuse reactions to economic shock\nWeak evidience of anticipation"
+  },
+  {
+    "objectID": "index.html#behavior-across-economic-conditions",
+    "href": "index.html#behavior-across-economic-conditions",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Behavior Across Economic Conditions",
+    "text": "Behavior Across Economic Conditions\n\nLLP more closely tracks macro conditions during crises\nIn stable periods:\n\nWe observe weaker relationships\n\nLess consistent adjustment patterns\n\nInsignificant timing effects"
+  },
+  {
+    "objectID": "index.html#visual-evidence",
+    "href": "index.html#visual-evidence",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Visual Evidence",
+    "text": "Visual Evidence\n\n\nStrong co-movement during crises (e.g., 2008)\n\nContrary motion during stable periods\n\nOur lag/lead significance pattern is a reflection of this changing relationship"
+  },
+  {
+    "objectID": "index.html#explanation",
+    "href": "index.html#explanation",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Explanation:",
+    "text": "Explanation:\n\nWhen risk is low, macro signals are less relevant to provisioning decisions\nDuring times of stability, banks may focus on other factors (e.g., competition, profitability, business metrics)\nFear of being left behind - When the competition is not provisioning, it increases the opportunity cost of playing safe, even if risk is increasing in the background"
+  },
+  {
+    "objectID": "index.html#diffuse-adjustment-during-crises",
+    "href": "index.html#diffuse-adjustment-during-crises",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Diffuse Adjustment During Crises",
+    "text": "Diffuse Adjustment During Crises\n\nEconomic shocks trigger immediate LLP responses\nAdjustments continue over multiple quarters\nEffects are distributed across time in a non-deterministic way"
+  },
+  {
+    "objectID": "index.html#interpretation",
+    "href": "index.html#interpretation",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Interpretation",
+    "text": "Interpretation\n\nBanks respond to worsening conditions once they are forced to\nAdjustments are:\n\nGradual\n\nOngoing\n\nSometimes reversed\nNot one-time decisions"
+  },
+  {
+    "objectID": "index.html#explanation-1",
+    "href": "index.html#explanation-1",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Explanation:",
+    "text": "Explanation:\n\nWhen risk becomes visible, banks adjust quickly to mitigate losses\nHowever, the adjustment process is not perfect or deterministic\nAs conditions evolve, banks may need to adjust further, or even reverse course if conditions improve"
+  },
+  {
+    "objectID": "index.html#weak-evidence-of-anticipation",
+    "href": "index.html#weak-evidence-of-anticipation",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Weak Evidence of Anticipation",
+    "text": "Weak Evidence of Anticipation"
+  },
+  {
+    "objectID": "index.html#evidence-on-anticipation",
+    "href": "index.html#evidence-on-anticipation",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Evidence on Anticipation",
+    "text": "Evidence on Anticipation\n\nSome lead terms are statistically significant"
+  },
+  {
+    "objectID": "index.html#explanation-2",
+    "href": "index.html#explanation-2",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Explanation:",
+    "text": "Explanation:\n\nTo make the claim that banks anticipate risk, we would need consistent evidence of significant lead effects across multiple variables and time periods\nThe lack of significant leads, and the incosistent pattern of signs, suggests that banks do not systematically adjust LLP in anticipation of future economic changes"
+  },
+  {
+    "objectID": "index.html#interpreting-lead-effects",
+    "href": "index.html#interpreting-lead-effects",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Interpreting Lead Effects",
+    "text": "Interpreting Lead Effects\n\nMacroeconomic conditions are persistent\nLLP responds over multiple quarters"
+  },
+  {
+    "objectID": "index.html#my-theory",
+    "href": "index.html#my-theory",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "My Theory",
+    "text": "My Theory\n→ Lead significance may reflect:\n\nOngoing adjustment to prior shocks\n\nOverlapping timing effects"
+  },
+  {
+    "objectID": "index.html#final-interpretation",
+    "href": "index.html#final-interpretation",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Final Interpretation",
+    "text": "Final Interpretation\n\nLLP responds to worsening macroeconomic conditions, especially when crisis is unambiguous and risk is visible\nAdjustments are:\n\nImmediate\n\nGradual\n\nDistributed over time\n\nResponses strengthen during shocks\nLittle evidence of systematic anticipation"
+  },
+  {
+    "objectID": "index.html#answer-to-research-question",
+    "href": "index.html#answer-to-research-question",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Answer to Research Question",
+    "text": "Answer to Research Question\nDo banks anticipate macroeconomic risk?\n\nLimited evidence of anticipation\nProvisioning responds:\n\nContemporaneously\n\nWith lagged adjustments"
+  },
+  {
+    "objectID": "index.html#in-conclusion",
+    "href": "index.html#in-conclusion",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "In conclusion:",
+    "text": "In conclusion:\nProvisioning behavior is reactionary and state-dependent"
+  },
+  {
+    "objectID": "index.html#role-of-data-science",
+    "href": "index.html#role-of-data-science",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Role of Data Science",
+    "text": "Role of Data Science\n\nCurrent behavior is largely reactionary"
+  },
+  {
+    "objectID": "index.html#key-takeaway",
+    "href": "index.html#key-takeaway",
+    "title": "Loan Loss Provisions: Anticipatory or Reactionary?",
+    "section": "Key Takeaway",
+    "text": "Key Takeaway\n→ Loan loss provisioning is not anticipatory\n→ It is a gradual, reactionary process\n→ Stronger during periods of economic stress"
+  }
+]
