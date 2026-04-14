@@ -10,6 +10,7 @@ format:
     transition: fade
     incremental: true
     center: true
+    self-contained: true
 
 ---
 
